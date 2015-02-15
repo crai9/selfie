@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="images/game.png">
+</head>
+
+<body>
+
+    <div id="viewport">
+        <div class="board score">
+            P2:
+            <span class="coin"></span>
+            <span class="score" id="score2">0</span>
+        </div>
+        <div class="board-left score">
+            P1:
+            <span class="coin"></span>
+            <span class="score" id="score1">0</span>
+        </div>
+        <center>
+            <p></p>
+            <h2 id="status">Draw a card, Player 1</h2>
+            <p></p>
+        </center>
+        <ul id='deck' class="stack">
+
+        </ul>
+    </div>
+
+    <div id="source">
+
+    </div>
+
+<!--     <div class="status">
+        <span id="status">|</span>
+    </div> -->
+
+    <!--- JS -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="swing.js"></script>
+    <script src="classList.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
